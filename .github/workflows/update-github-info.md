@@ -21,6 +21,7 @@ network:
     - defaults
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
@@ -32,9 +33,10 @@ safe-outputs:
 ## Sources
 
 1. Read `notes/mona-notes.md` and the current `site/content/github-info.md` using the GitHub repository API tools. Do not use terminal, CLI, or shell commands to read repository files.
-2. Fetch both official sources with the `web-fetch` tool:
+2. Fetch all three sources with the `web-fetch` tool:
    - https://github.blog/latest/
    - https://github.blog/changelog/
+  - https://awesome-copilot.github.com/workflows/
 
 ## Update
 
